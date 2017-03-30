@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11739A9A1E8D80EB00510D44 /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11739A991E8D80EB00510D44 /* PlaySongViewController.swift */; };
 		11F7AD3A1E8D6F07002818E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7AD391E8D6F07002818E6 /* AppDelegate.swift */; };
-		11F7AD3C1E8D6F07002818E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7AD3B1E8D6F07002818E6 /* ViewController.swift */; };
+		11F7AD3C1E8D6F07002818E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7AD3B1E8D6F07002818E6 /* LoginViewController.swift */; };
 		11F7AD3F1E8D6F07002818E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F7AD3D1E8D6F07002818E6 /* Main.storyboard */; };
 		11F7AD411E8D6F07002818E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F7AD401E8D6F07002818E6 /* Assets.xcassets */; };
 		11F7AD441E8D6F07002818E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F7AD421E8D6F07002818E6 /* LaunchScreen.storyboard */; };
+		11F7AD4C1E8D7B98002818E6 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7AD4B1E8D7B98002818E6 /* MusicListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11739A991E8D80EB00510D44 /* PlaySongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 		11F7AD361E8D6F07002818E6 /* SegueUpdates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueUpdates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F7AD391E8D6F07002818E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11F7AD3B1E8D6F07002818E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11F7AD3B1E8D6F07002818E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		11F7AD3E1E8D6F07002818E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11F7AD401E8D6F07002818E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F7AD431E8D6F07002818E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F7AD451E8D6F07002818E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F7AD4B1E8D7B98002818E6 /* MusicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				11F7AD391E8D6F07002818E6 /* AppDelegate.swift */,
-				11F7AD3B1E8D6F07002818E6 /* ViewController.swift */,
+				11F7AD3B1E8D6F07002818E6 /* LoginViewController.swift */,
 				11F7AD3D1E8D6F07002818E6 /* Main.storyboard */,
+				11739A991E8D80EB00510D44 /* PlaySongViewController.swift */,
+				11F7AD4B1E8D7B98002818E6 /* MusicListViewController.swift */,
 				11F7AD401E8D6F07002818E6 /* Assets.xcassets */,
 				11F7AD421E8D6F07002818E6 /* LaunchScreen.storyboard */,
 				11F7AD451E8D6F07002818E6 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F7AD3C1E8D6F07002818E6 /* ViewController.swift in Sources */,
+				11F7AD3C1E8D6F07002818E6 /* LoginViewController.swift in Sources */,
 				11F7AD3A1E8D6F07002818E6 /* AppDelegate.swift in Sources */,
+				11F7AD4C1E8D7B98002818E6 /* MusicListViewController.swift in Sources */,
+				11739A9A1E8D80EB00510D44 /* PlaySongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				11F7AD4A1E8D6F07002818E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
